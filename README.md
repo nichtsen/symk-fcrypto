@@ -11,7 +11,7 @@ $ pip install pycrypto
 ## encryption or decryption
 
 ```bash
-$ python fcrypto.py
+$ python ficrypto.py
 ```
 
 ## filename extension:

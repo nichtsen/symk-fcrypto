@@ -8,7 +8,6 @@ def pad(text):
         text += '\0'
     return text
 def encrp(key,fi):
-    # Return random bytes
     aes = AES.new(key, AES.MODE_ECB)
     fr = open(fi,'rb')
     fw = open(fi+'.en', 'wb')
@@ -53,14 +52,13 @@ def main():
     mode = input('encrypt or decrypt? (enter "e" or "d") \n')
     if (mode == 'e'):
         fi = input('enter the file name:\n')
+        # random bytes
         key = np.random.bytes(16)
         try:
             encrp(key,fi)
-            # decrp(key)
             keybox(key,fi)
             print ('Successfully encypted!')
         except:
-            #traceback.print_exc()
             print('A error has occured!')
             input('Enter to exist...')
     elif (mode == 'd'):

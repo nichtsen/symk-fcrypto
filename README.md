@@ -1,6 +1,6 @@
 # symk-fcrypto
 
-> Quick file encryption via AES-ECB.
+> Quick file encryptio/decryption via AES-ECB.
 
 ## Prerequisites
 

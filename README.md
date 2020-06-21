@@ -22,3 +22,4 @@ $ python ficrypto.py
 
 ## Language
 [golang implementation](https://github.com/nichtsen/fcypt)
+[C implementation](https://github.com/nichtsen/fcrypt)
